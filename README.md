@@ -47,12 +47,13 @@
 
 ### 📊 GitHub Analytics Overview
 
-<p align="center">
+<p align="left">
   <!-- Most Used Languages -->
+ <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kavinduumayanga&theme=github_dark" alt="Most Used Languages" />
 </p>
-  
-  <!-- GitHub Stats with A+ circle -->
+
+<p align="right">  <!-- GitHub Stats with A+ circle -->
   <img src="https://github-readme-stats.vercel.app/api?username=kavinduumayanga&show_icons=true&hide_title=true&hide_rank=false&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&custom_title=Kavindu%20Umayanga's%20GitHub%20Stats" alt="GitHub Stats" />
 </p>
 
