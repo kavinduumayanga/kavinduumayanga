@@ -45,19 +45,19 @@
 
 ---
 
-### 📊 GitHub Stats Summary
+### 📊 GitHub Analytics Overview
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kavinduumayanga&theme=github_dark" alt="GitHub Profile Summary Card" />
+  <!-- Most Used Languages -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kavinduumayanga&theme=2077" width="420"/>
+  
+  <!-- GitHub Stats with A+ circle -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kavinduumayanga&theme=github_dark" width="420"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kavinduumayanga&theme=github_dark" alt="Repos Per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kavinduumayanga&theme=github_dark" alt="Most Used Language" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kavinduumayanga&theme=github_dark&utcOffset=+5.5" alt="Productive Time" />
+  <!-- GitHub Streak (Orange Styled) -->
+  <img src="https://streak-stats.demolab.com?user=kavinduumayanga&theme=highcontrast&hide_border=false&ring=ff8c00&fire=ff8c00&currStreakNum=ffffff&currStreakLabel=ff8c00&sideNums=ffffff&dates=cccccc" />
 </p>
 
 ---
