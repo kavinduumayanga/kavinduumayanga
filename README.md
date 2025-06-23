@@ -45,11 +45,22 @@
 
 ---
 
-### 🔥 GitHub Contribution Stats
+### 📊 GitHub Stats Summary
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=kavinduumayanga&theme=dark&hide_border=true&ring=1ae0ff&fire=1ae0ff&currStreakNum=ffffff&dates=9c9c9c" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kavinduumayanga&theme=github_dark" alt="GitHub Profile Summary Card" />
 </p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kavinduumayanga&theme=github_dark" alt="Repos Per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kavinduumayanga&theme=github_dark" alt="Most Used Language" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kavinduumayanga&theme=github_dark&utcOffset=+5.5" alt="Productive Time" />
+</p>
+
+---
 
 ### 📫 Contact Me
 
