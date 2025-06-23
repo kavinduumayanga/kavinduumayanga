@@ -49,8 +49,7 @@
 
 <p align="left">
   <!-- Most Used Languages -->
- <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kavinduumayanga&theme=github_dark" alt="Most Used Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kavinduumayanga&layout=compact&theme=dark&langs_count=10" alt="Most Used Languages" />
 </p>
 
 <p align="right">  <!-- GitHub Stats with A+ circle -->
