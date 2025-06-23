@@ -63,10 +63,25 @@
 </p>
 ---
 
-### 📫 Contact Me
+<h2 align="left">🌐 Contact Me</h2>
+<hr/>
 
-- Email: **kavinumayanga@gmail.com**
-- LinkedIn: [linkedin.com/in/kavindu-umayanga](https://linkedin.com/in/kavindu-umayanga)
-- Portfolio: [GitHub Pages](https://kavinduumayanga.github.io)
+<p align="left">
+  <a href="www.linkedin.com/in/kavindu-umayanga-93239b319" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+
+  <a href="https://www.facebook.com/kavindu.umayangana.79/" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
+  </a>
+
+  <a href="https://www.instagram.com/kavinduumayanga_/" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+
+  <a href="https://www.hackerrank.com/profile/kavinumayanga" target="_blank">
+    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/>
+  </a>
+</p>
 
 ---
