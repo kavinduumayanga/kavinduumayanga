@@ -1,17 +1,15 @@
 <h1 align="center">Hi , I'm Kavindu Umayanga 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFF40&center=true&vCenter=true&width=435&lines=I'm+a+Full-Stack+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1ae0ff&center=true&vCenter=true&width=435&lines=I'm+a+Full-Stack+Developer" alt="Typing SVG" />
 </p>
 
----
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/kavinduumayanga?label=Follow&style=social" />
   <img src="https://img.shields.io/github/stars/kavinduumayanga?style=social" />
 </p>
 
----
 
 ### About Me
 
