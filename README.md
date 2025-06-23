@@ -47,21 +47,23 @@
 
 ### 📊 GitHub Analytics Overview
 
-<p align="left">
-  <!-- Most Used Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kavinduumayanga&layout=compact&theme=dark&langs_count=10" alt="Most Used Languages" />
-</p>
-
-<p align="right">  <!-- GitHub Stats with A+ circle -->
-  <img src="https://github-readme-stats.vercel.app/api?username=kavinduumayanga&show_icons=true&hide_title=true&hide_rank=false&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&custom_title=Kavindu%20Umayanga's%20GitHub%20Stats" alt="GitHub Stats" />
-</p>
-
+<table>
+  <tr>
+    <td align="left">
+      <!-- Most Used Languages -->
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kavinduumayanga&layout=compact&theme=dark&langs_count=10" alt="Most Used Languages" />
+    </td>
+    <td align="right">
+      <!-- GitHub Stats with A+ circle -->
+      <img src="https://github-readme-stats.vercel.app/api?username=kavinduumayanga&show_icons=true&hide_title=true&hide_rank=false&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&custom_title=Kavindu%20Umayanga's%20GitHub%20Stats" alt="GitHub Stats" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <!-- GitHub Streak (Orange Styled) -->
   <img src="https://streak-stats.demolab.com?user=kavinduumayanga&theme=highcontrast&hide_border=false&ring=ff8c00&fire=ff8c00&currStreakNum=ffffff&currStreakLabel=ff8c00&sideNums=ffffff&dates=cccccc" />
 </p>
-
 ---
 
 ### 📫 Contact Me
