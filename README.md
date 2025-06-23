@@ -45,6 +45,12 @@
 
 ---
 
+### 🔥 GitHub Contribution Stats
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=kavinduumayanga&theme=dark&hide_border=true&ring=1ae0ff&fire=1ae0ff&currStreakNum=ffffff&dates=9c9c9c" alt="GitHub Streak" />
+</p>
+
 ### 📫 Contact Me
 
 - Email: **kavinumayanga@gmail.com**
