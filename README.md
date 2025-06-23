@@ -61,7 +61,6 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=kavinduumayanga&theme=highcontrast&hide_border=false&ring=ff8c00&fire=ff8c00&currStreakNum=ffffff&currStreakLabel=ff8c00&sideNums=ffffff&dates=cccccc" />
 </p>
----
 
 <h2 align="left">🌐 Contact Me</h2>
 <hr/>
@@ -83,4 +82,3 @@
     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hackerrank.svg" alt="HackerRank" width="40" height="40" />
   </a>
 </p>
----
