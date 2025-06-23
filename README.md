@@ -9,19 +9,20 @@
 
 ---
 
-### 🧠 About Me
+### About Me
 
-- 👨‍💻 Fullstack Developer  
+- 👨‍💻 Fullstack Developer
+- 🚀 Microsoft Learn Student Ambassador <img src="https://user-images.githubusercontent.com/122372620/234792744-2f1f5172-bb4e-4fe0-93b9-4b3d893fbb6e.png" alt="Gold MLSA Badge" width="20"/>
 - 🎓 SE Undergraduate @ SLIIT  
-- 🏆 Postman Student Leader 🟧  |  Gold MLSA 🥇  
-- 💻 I view everything as a series of `Ones` and `Zeros`  
-- 🚀 Always learning new things and pushing my boundaries!
+- 🏆 Postman Student Expert    
+- 💻 Turning ideas into code, and code into innovation
+
 
 ---
 
 ### 🛠️ Skills
 
-<p align="left">
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
