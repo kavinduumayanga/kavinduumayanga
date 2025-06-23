@@ -1,5 +1,9 @@
 <h1 align="center">Hi , I'm Kavindu Umayanga 👋</h1>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=I'm+a+Full-Stack+Developer" alt="Typing SVG" />
+</p>
+
 ---
 
 <p align="center">
@@ -12,7 +16,7 @@
 ### About Me
 
 - 👨‍💻 Fullstack Developer
-- 🚀 Microsoft Learn Student Ambassador <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fMCdGCokXoh8CECCD7j9Og.png" alt="Beta MLSA Badge" width="15"/>
+- 🚀 Microsoft Learn Student Ambassador <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fMCdGCokXoh8CECCD7j9Og.png" alt="Beta MLSA Badge" width="20"/>
 - 🎓 SE Undergraduate @ SLIIT  
 - 🏆 Postman Student Expert <img src="https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp&w=512" alt="Postman Logo" width="15"/>   
 - 💻 Turning ideas into code, and code into innovation
