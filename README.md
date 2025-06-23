@@ -67,21 +67,48 @@
 <hr/>
 
 <p align="left">
+  <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/kavindu-umayanga-93239b319" target="_blank">
-    <img src="https://cdn.iconscout.com/icon/free/png-512/free-linkedin-icon-download-in-svg-png-gif-file-formats--social-network-media-pack-logos-icons-3357716.png?f=webp&w=512" alt="LinkedIn" width="40" height="40" />
+    <img 
+      src="https://cdn.iconscout.com/icon/free/png-512/free-linkedin-icon-download-in-svg-png-gif-file-formats--social-network-media-pack-logos-icons-3357716.png?f=webp&w=512" 
+      alt="LinkedIn" 
+      width="40" 
+      height="40" 
+      style="margin-right: 10px;" 
+    />
   </a>
 
+  <!-- Facebook -->
   <a href="https://www.facebook.com/kavindu.umayangana.79/" target="_blank">
-    <img src="https://cdn.iconscout.com/icon/free/png-512/free-facebook-logo-icon-download-in-svg-png-gif-file-formats--meta-social-media-fb-apps-pack-logos-icons-8461536.png?f=webp&w=512" width="40" height="40" />
+    <img 
+      src="https://cdn.iconscout.com/icon/free/png-512/free-facebook-logo-icon-download-in-svg-png-gif-file-formats--meta-social-media-fb-apps-pack-logos-icons-8461536.png?f=webp&w=512" 
+      alt="Facebook" 
+      width="40" 
+      height="40" 
+      style="margin-right: 10px;" 
+    />
   </a>
 
+  <!-- Instagram -->
   <a href="https://www.instagram.com/kavinduumayanga_/" target="_blank">
-    <img src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-logo-icon-download-in-svg-png-gif-file-formats--social-media-apps-pack-logos-icons-8461537.png?f=webp&w=512" alt="Instagram" width="40" height="40" />
+    <img 
+      src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-logo-icon-download-in-svg-png-gif-file-formats--social-media-apps-pack-logos-icons-8461537.png?f=webp&w=512" 
+      alt="Instagram" 
+      width="40" 
+      height="40" 
+      style="margin-right: 10px;" 
+    />
   </a>
 
-  <a href="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hackerrank.svg" alt="HackerRank" width="40" height="40" />
+  <!-- HackerRank -->
+  <a href="https://www.hackerrank.com/profile/kavinumayanga" target="_blank">
+    <img 
+      src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/hackerrank.svg" 
+      alt="HackerRank" 
+      width="40" 
+      height="40" 
+      style="margin-right: 10px;" 
+    />
   </a>
 </p>
-
 ---
