@@ -13,7 +13,7 @@
 ### About Me
 
 - 👨‍💻 Fullstack Developer
-- <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fMCdGCokXoh8CECCD7j9Og.png" alt="Beta MLSA Badge" width="20"/> Microsoft Learn Student Ambassador 
+- <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fMCdGCokXoh8CECCD7j9Og.png" alt="Beta MLSA Badge" width="20"/> Microsoft Student Ambassador 
 - 🎓 SE Undergraduate @ SLIIT  
 - <img src="https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp&w=512" alt="Postman Logo" width="15"/> Postman Student Expert   
 - 💻 Turning ideas into code, and code into innovation
