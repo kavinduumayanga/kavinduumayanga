@@ -17,12 +17,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+      - name: generate-snake-game-from-github-contribution-grid
+        uses: Platane/snk@v3.5.0
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: kavinduumayanga
+          github_token: ${{ github.token }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.svg?palette=github
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push snake SVG to output branch
@@ -33,4 +34,3 @@ jobs:
           commit_message: "chore: update snake animation [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
