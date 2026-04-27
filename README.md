@@ -32,7 +32,8 @@ const kavindu = {
 };
 ```
 
-<img align="right" alt="Coding" width="360" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif"/>
+<img align="right" alt="Coding" width="380" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+
 
 - 🔭 Currently working on exciting **Full-Stack** projects
 - 🌱 Exploring **Cloud Technologies** & **AI/ML** integrations
