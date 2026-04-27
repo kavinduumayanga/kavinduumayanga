@@ -132,10 +132,4 @@ const kavindu = {
 <!-- Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=17,18,19&height=100&section=footer&animation=twinkling" width="100%"/>
 
-<br/>
-
-*"Code is poetry written in logic."* ✨
-
-**⭐ Star my repos if you find them interesting!**
-
 </div>
