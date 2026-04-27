@@ -96,9 +96,9 @@ const kavindu = {
 
 <br/>
 
-<!-- GitHub Trophies -->
+<!-- GitHub Profile Summary -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kavinduumayanga&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="GitHub Trophies"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kavinduumayanga&theme=tokyonight" alt="Profile Details" width="95%"/>
 </div>
 
 ---
