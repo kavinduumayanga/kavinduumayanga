@@ -105,12 +105,10 @@ const kavindu = {
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
+
+> ⚡ **Snake not showing?** Go to your repo → **Actions** tab → **Generate Snake Animation** → click **Run workflow** once to generate it.
 
 ---
 
