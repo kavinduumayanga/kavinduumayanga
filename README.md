@@ -1,198 +1,307 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                        ANIMATED HEADER                            -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ HERO SECTION ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ -->
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Kavindu%20Umayanga&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20•%20Microsoft%20Student%20Ambassador%20•%20SLIIT&descAlignY=60&descSize=14&descColor=b0b0b0" width="100%"/>
+<a href="https://github.com/kavinduumayanga">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=transparent&height=150&text=KAVINDU%20UMAYANGA&fontColor=c9d1d9&fontSize=60&fontAlign=50&fontAlignY=50&animation=scaleIn&desc=&descAlignY=80" />
+</a>
 
-<!-- Animated Typing SVG -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=%E2%9A%A1+Building+the+future%2C+one+commit+at+a+time;%F0%9F%9A%80+Full-Stack+Developer+%7C+Cloud+%7C+AI%2FML;%F0%9F%92%99+Microsoft+Student+Ambassador;%F0%9F%9F%A0+Postman+Student+Expert;%F0%9F%8E%93+SE+Undergraduate+%40+SLIIT" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=500&size=28&duration=4000&pause=800&color=A371F7&center=true&vCenter=true&width=700&height=50&lines=🚀+Full-Stack+Developer;💙+Microsoft+Student+Ambassador;🟠+Postman+Student+Expert;🎓+SE+Undergraduate+%40+SLIIT;☕+Fueled+by+Code+%26+Coffee" alt="Typing SVG" /></a>
 
 <br/>
 
-<!-- Sleek Profile Badges -->
-<a href="https://github.com/kavinduumayanga"><img src="https://img.shields.io/badge/Profile_Views-0891b2?style=flat-square&logo=github&logoColor=white&label=👀&labelColor=161b22" alt="Profile Views"/></a>
-&nbsp;
-<a href="https://github.com/kavinduumayanga?tab=followers"><img src="https://img.shields.io/github/followers/kavinduumayanga?style=flat-square&logo=github&logoColor=white&color=58a6ff&labelColor=161b22&label=Followers" alt="Followers"/></a>
-&nbsp;
-<a href="https://github.com/kavinduumayanga?tab=repositories"><img src="https://img.shields.io/github/stars/kavinduumayanga?style=flat-square&logo=github&logoColor=white&color=58a6ff&labelColor=161b22&label=Stars" alt="Stars"/></a>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=kavinduumayanga&style=flat-square&color=58a6ff&label=Profile+Views" alt="Profile Views Counter"/>
+<!-- Profile Metrics -->
+<img src="https://komarev.com/ghpvc/?username=kavinduumayanga&style=for-the-badge&color=a371f7&labelColor=1a1b27&label=VISITORS" alt="Profile Views"/>
+&ensp;
+<a href="https://github.com/kavinduumayanga?tab=followers"><img src="https://custom-icon-badges.demolab.com/github/followers/kavinduumayanga?style=for-the-badge&logo=people&logoColor=white&color=236ad3&labelColor=1a1b27&label=FOLLOWERS" alt="Followers"/></a>
+&ensp;
+<a href="https://github.com/kavinduumayanga?tab=repositories"><img src="https://custom-icon-badges.demolab.com/github/stars/kavinduumayanga?style=for-the-badge&logo=star&logoColor=white&color=e3b341&labelColor=1a1b27&label=STARS" alt="Stars"/></a>
 
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                           ABOUT ME                                -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<br/>
+
+<!-- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ ABOUT ME ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ -->
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <br/>
 
-<img align="right" alt="Coding" width="360" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
-
-## ⚡ About Me
-
-```yaml
-name: Kavindu Umayanga
-role: Full-Stack Developer
-education: SE Undergraduate @ SLIIT 🎓
-location: Sri Lanka 🇱🇰
-badges:
-  - Microsoft Learn Student Ambassador 💙
-  - Postman Student Expert 🟠
-currently_working_on: Full-Stack & Cloud Projects
-learning: Cloud Architecture | AI/ML | DevOps
-fun_fact: I debug with coffee ☕ and lo-fi beats 🎵
-motto: "Code is poetry written in logic"
-```
-
-- 🔭 Building exciting **Full-Stack** applications
-- 🌱 Deep-diving into **Azure Cloud** & **AI/ML** integrations
-- 💙 **Microsoft Student Ambassador** — empowering developer communities
-- 🟠 **Postman Student Expert** — API design & testing advocate
-- 🎓 **Software Engineering** undergraduate at **SLIIT**
-- ⚡ Fun fact: I love solving problems & building things that matter!
-
-<br clear="right"/>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                         TECH STACK                                -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
 <table>
 <tr>
-<td align="center" width="50%">
+<td width="55%" valign="top">
 
-**💻 Languages**
+### `> whoami` 🧑‍💻
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,cs,dart&perline=4&theme=dark" />
+```js
+const kavindu = {
+    pronouns: "He" | "Him",
+    location: "Sri Lanka 🇱🇰",
+    education: "SE @ SLIIT",
+    roles: [
+        "Full-Stack Developer",
+        "Microsoft Student Ambassador",
+        "Postman Student Expert"
+    ],
+    currentFocus: "Cloud & AI/ML",
+    askMeAbout: [
+        "Web Dev", "APIs",
+        "Cloud Architecture",
+        "Open Source"
+    ],
+    funFact: "I debug with ☕ & lo-fi beats 🎵"
+};
+```
 
 </td>
-<td align="center" width="50%">
+<td width="45%" valign="top">
 
-**🚀 Frameworks & Libraries**
+### `> highlights` ⚡
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,flutter,dotnet,bootstrap&perline=4&theme=dark" />
+&nbsp;
 
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
+🔭 Building exciting **Full-Stack** applications
 
-**🗄️ Databases & Cloud**
+🌱 Deep-diving into **Azure Cloud** & **AI/ML**
 
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase,azure,aws,redis,supabase&perline=4&theme=dark" />
+💙 **MLSA** — empowering dev communities
 
-</td>
-<td align="center" width="50%">
+🟠 **Postman Expert** — API design advocate
 
-**🔧 Tools & Platforms**
+🎓 **Software Engineering** @ **SLIIT**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,docker,linux,vercel&perline=4&theme=dark" />
+🏆 Passionate about **Open Source**
+
+💡 *"Code is poetry written in logic"*
+
+&nbsp;
 
 </td>
 </tr>
 </table>
 
-</div>
+<!-- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ TECH ARSENAL ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ -->
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                       GITHUB ANALYTICS                            -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## 📊 GitHub Analytics
+<br/>
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kavinduumayanga&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&rank_icon=percentile" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kavinduumayanga&layout=donut-vertical&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages"/>
+### 🧰 Tech Arsenal
+
+<br/>
+
+<!-- LANGUAGES -->
+<details open>
+<summary><b>💻 Languages</b></summary>
+<br/>
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+</p>
+</details>
+
+<!-- FRAMEWORKS -->
+<details open>
+<summary><b>🚀 Frameworks & Libraries</b></summary>
+<br/>
+<p>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+</p>
+</details>
+
+<!-- DATABASES & CLOUD -->
+<details open>
+<summary><b>☁️ Databases & Cloud</b></summary>
+<br/>
+<p>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+</p>
+</details>
+
+<!-- TOOLS -->
+<details open>
+<summary><b>🛠️ Tools & Platforms</b></summary>
+<br/>
+<p>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</p>
+</details>
 
 </div>
 
 <br/>
 
-<div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=kavinduumayanga&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=ff6b35&currStreakNum=ffffff&currStreakLabel=58a6ff&sideNums=ffffff&sideLabels=58a6ff&dates=8b949e" alt="GitHub Streak"/>
-</div>
+<!-- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ GITHUB STATS ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ -->
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
 
 <br/>
 
-<!-- GitHub Activity Graph -->
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=kavinduumayanga&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&area_color=1a2744&custom_title=Contribution%20Activity%20Graph" alt="Activity Graph"/>
-</div>
+
+### 📈 GitHub Stats
 
 <br/>
 
-<!-- GitHub Trophies -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kavinduumayanga&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="GitHub Trophies"/>
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                      CONTRIBUTION SNAKE                           -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                        LET'S CONNECT                              -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## 🌐 Let's Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/kavindu-umayanga-93239b319"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-&nbsp;
-<a href="https://www.instagram.com/kavinduumayanga_/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-&nbsp;
-<a href="https://www.facebook.com/kavindu.umayangana.79/"><img src="https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/></a>
-&nbsp;
-<a href="https://www.hackerrank.com/kavinduumayanga"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank"/></a>
-&nbsp;
-<a href="mailto:kavinduumayanga@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                           FOOTER                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=twinkling" width="100%"/>
-
-<br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Dev Quote"/>
+<a href="https://github.com/kavinduumayanga">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=kavinduumayanga&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1a1b27&title_color=a371f7&icon_color=a371f7&text_color=c9d1d9&ring_color=a371f7&rank_icon=github" alt="GitHub Stats"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/kavinduumayanga">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kavinduumayanga&layout=donut&langs_count=8&theme=react&hide_border=true&bg_color=1a1b27&title_color=a371f7&text_color=c9d1d9" alt="Top Languages"/>
+</a>
 
 <br/><br/>
 
-**💙 If you find my work helpful, consider giving a ⭐!**
+<!-- Streak Stats -->
+<a href="https://github.com/kavinduumayanga">
+  <img width="75%" src="https://streak-stats.demolab.com?user=kavinduumayanga&theme=react&hide_border=true&background=1a1b27&stroke=30363d&ring=a371f7&fire=e3b341&currStreakNum=c9d1d9&currStreakLabel=a371f7&sideNums=c9d1d9&sideLabels=a371f7&dates=6e7681" alt="GitHub Streak"/>
+</a>
 
-<img src="https://img.shields.io/badge/Made%20with-❤️-ff3860?style=flat-square&labelColor=161b22" alt="Made with Love"/>
+<br/><br/>
+
+<!-- Activity Graph -->
+<a href="https://github.com/kavinduumayanga">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=kavinduumayanga&bg_color=1a1b27&color=a371f7&line=a371f7&point=e3b341&area=true&hide_border=true&area_color=2d1f4e&custom_title=📊%20Contribution%20Timeline" alt="Activity Graph"/>
+</a>
+
+<br/><br/>
+
+<!-- Profile Summary Cards -->
+<a href="https://github.com/kavinduumayanga">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kavinduumayanga&theme=dracula" alt="Repos per Language"/>
+</a>
+<a href="https://github.com/kavinduumayanga">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kavinduumayanga&theme=dracula" alt="Most Commit Language"/>
+</a>
+<a href="https://github.com/kavinduumayanga">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kavinduumayanga&theme=dracula&utcOffset=5.5" alt="Productive Time"/>
+</a>
+
+<br/><br/>
+
+<!-- Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=kavinduumayanga&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" alt="GitHub Trophies"/>
+
+</div>
+
+<br/>
+
+<!-- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ SNAKE ANIMATION ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ -->
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+### 🐍 Contribution Snake
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+<br/>
+
+<!-- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ CONNECT ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ -->
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+### 🤝 Let's Connect
+
+<br/>
+
+<a href="https://www.linkedin.com/in/kavindu-umayanga-93239b319">
+  <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"/>
+</a>
+&ensp;
+<a href="https://www.instagram.com/kavinduumayanga_/">
+  <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" alt="Instagram"/>
+</a>
+&ensp;
+<a href="https://www.facebook.com/kavindu.umayangana.79/">
+  <img src="https://img.shields.io/badge/-Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0866FF" alt="Facebook"/>
+</a>
+&ensp;
+<a href="https://www.hackerrank.com/kavinduumayanga">
+  <img src="https://img.shields.io/badge/-HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black&labelColor=00EA64" alt="HackerRank"/>
+</a>
+&ensp;
+<a href="mailto:kavinduumayanga@gmail.com">
+  <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail"/>
+</a>
+
+</div>
+
+<br/>
+
+<!-- ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ FOOTER ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ -->
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+
+<div align="center">
+
+<br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border=true" alt="Dev Quote"/>
+
+<br/><br/>
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║   💡  "Code is poetry written in logic."                     ║
+║                                                              ║
+║   ⭐  Star my repos if you find them interesting!            ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24&height=2&section=header" width="100%"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Thanks_for_visiting!_🙏-a371f7?style=for-the-badge&labelColor=1a1b27" alt="Thanks"/>
 
 </div>
