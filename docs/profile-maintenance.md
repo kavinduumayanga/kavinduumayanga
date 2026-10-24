@@ -1,20 +1,32 @@
 # Profile maintenance
 
-The profile uses standard GitHub Markdown, HTML image/picture/details elements, and standalone SVG images. It has no JavaScript, external fonts, runtime icon service, analytics widget, or generated statistics counter.
+The README is a Linux Workstation × DevOps Control Center portfolio built from self-contained SVGs. It uses GitHub-supported Markdown and HTML (`picture`, `img`, `a`, `details`, and `p`). There is no JavaScript, custom README CSS, external font, image-generation service, or runtime icon CDN.
 
-## Artwork and motion
+## Editing the design
 
-- `assets/terminal.svg` and `assets/terminal-mobile.svg`: custom desktop and narrow-screen terminal headers. A command reveals once, the cursor blinks four times, and an accent line draws once. The mobile source is selected below 600 px.
-- `assets/devops-workflow.svg` and `assets/devops-workflow-mobile.svg`: custom desktop and narrow-screen lifecycle diagrams with numbered steps and arrows. The connector animation runs twice, then stops.
-- All four SVGs have titles, descriptions, explicit viewBoxes, and dark panels with readable text on either GitHub theme. Essential content and arrows are present without animation. Reduced-motion CSS inside the SVG disables decorative motion and command clipping. This CSS belongs to the SVG image, not the README HTML.
-- The contribution snake is behind an expandable section, with light and dark sources. Its animation is supplied by the existing snake generator; it does not have our custom reduced-motion handling. The native contribution-history link remains available independently.
-- Keep profile text in the README as well as image alternative text so the identity remains readable without images.
+Run `python3 scripts/build_profile_assets.py` from the repository after editing the generator. It uses only the Python standard library and deterministically produces 16 SVGs. It never accesses the network or changes the workflow.
 
-## Technology icons
+The generator centralizes the charcoal, sage-green, and cyan palette; typography; panel spacing; line iconography; and layouts. Edit copy and geometry there, then regenerate rather than editing generated SVGs by hand. Keep README alternative text in sync with copy changes.
 
-The icons are vendored from [Devicon](https://github.com/devicons/devicon) at commit `6a37858047b0e8d9c9c0e68f4a071fc410652e89`. The original MIT license is retained in `assets/icons/LICENSE`. All use the `original` variant except Linux, which uses the smaller `plain` SVG. Each icon is padded inside a light rounded tile for contrast in both GitHub themes. Brand names and marks belong to their respective owners.
+- `assets/terminal{,-mobile}.svg`: workstation hero, command reveal, blinking cursor, and a conceptual cloud/Linux/build topology on desktop. Labels describe the learning journey; none are live telemetry.
+- `assets/about{,-mobile}.svg`: Neofetch-inspired identity panel with the licensed Linux penguin, education, engineering focus, and community roles.
+- `assets/toolkit{,-mobile}.svg`: grouped technology tiles, current learning focus, and explicitly labeled next-lab goals. Bash provisioning remains described as experimental.
+- `assets/projects/`: four individually clickable project cards, each with a mobile layout. The Linux lab is visually emphasized and includes a simplified architecture, not a complete seven-VM network map. Repository links are ordinary HTML anchors around the images; SVG-internal links are not relied on.
+- `assets/devops-workflow{,-mobile}.svg`: Code → Build → Test → Deploy → Monitor, using consistent vector icons and a finite connector animation. The caption frames this as a learning lifecycle, not a claim that every stage is implemented in every project.
 
-Vendoring avoids a third-party icon request on every profile view. To update, download the corresponding `icons/<name>/<name>-<variant>.svg` files from a reviewed Devicon revision and preserve its license.
+The narrow layout is selected at a viewport width of 900 px or below. The breakpoint accounts for GitHub's profile sidebar: the README article can be much narrower than the browser window. All artwork scales to the available article width. Panels keep their own charcoal background and text contrast in GitHub light and dark themes.
+
+## Motion and fallback behavior
+
+The command reveals once; the cursor blinks four times. The hero topology runs twice, and the delivery-loop animation runs twice. Each custom SVG is complete without SMIL support: text, icons, connectors, and architecture remain visible. Reduced-motion CSS inside each SVG hides decorative motion and removes command clipping. This CSS is part of the SVG image, not the README HTML. Browser support for propagating reduced-motion preferences into image documents can vary; animations are finite as an additional safeguard.
+
+The existing GitHub contribution snake stays in an expandable section, with light/dark image selection. Its upstream animation does not use this custom reduced-motion treatment. The native contribution-history link is available within the section.
+
+## Icons and dependencies
+
+Technology icons come from [Devicon](https://github.com/devicons/devicon) commit `6a37858047b0e8d9c9c0e68f4a071fc410652e89`. Their MIT license is retained in `assets/icons/LICENSE`. Existing source icon files were preserved. The generator embeds their paths directly, prefixes internal IDs, and places them in consistent light tiles, so SVG images need no external requests. The Linux penguin is reused in the identity panel. Brand names and marks belong to their respective owners.
+
+The only remotely generated image is the contribution snake, hosted on GitHub. All new portfolio artwork is stored in this repository.
 
 ## Evidence behind the profile
 
@@ -31,27 +43,27 @@ Reviewed on 2026-10-24. These links explain the choices; this is not an independ
 
 Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana are explicitly learning-roadmap items. The README does not claim completed projects with those tools. RHEL was omitted because the inspected evidence did not establish its use. RideLink is credited as a team project, not sole authorship.
 
-## Contribution workflow
+## Existing contribution workflow
 
-The existing `.github/workflows/snake.yml` remains scheduled every 12 hours and supports a push to `main` or a manual run. It uses the SVG-only [Platane/snk](https://github.com/Platane/snk) generator and [crazy-max/ghaction-github-pages](https://github.com/crazy-max/ghaction-github-pages) to write the generated SVGs to the `output` branch. Both actions are pinned to the verified commit of the existing version. Concurrency prevents simultaneous publishing jobs.
+`.github/workflows/snake.yml` is unchanged by this visual redesign. It retains the 12-hour schedule, push-to-main trigger, manual dispatch, concurrency control, timeout, and pinned SVG-only Platane/snk and crazy-max/ghaction-github-pages actions. The default token permission is `contents: read`; the publishing job requests `contents: write` for the output branch. No new secrets or account settings are needed.
 
-The workflow defaults to `contents: read`. Only the publishing job requests `contents: write`; all unspecified permissions are disabled. It uses the repository's automatic `GITHUB_TOKEN`, with no PAT, added secret, or pull-request trigger.
+After committing and pushing the redesign, normal GitHub asset delivery and the existing workflow apply. To refresh the snake manually, use **Actions → Generate Snake Animation → Run workflow** on `main`.
 
-At inspection, Actions was enabled, the account had repository administration access, the default token policy was read-only, and the latest three snake runs had succeeded. Both generated SVG URLs were checked during validation.
+## Visual verification
 
-After committing and pushing the redesign to `main`, the workflow runs automatically. No GitHub Pages site, new secret, or broader default write permission is required. To refresh manually, open **Actions → Generate Snake Animation → Run workflow** on `main`. If repository policy later blocks publishing, review the failed run and allow this job to write to `output`; do not broaden token permissions unnecessarily.
+The README was rendered through GitHub's Markdown API, then inserted locally into the actual public GitHub profile article in Chromium. New asset requests were intercepted in that browser and served from the working tree. This preserved GitHub's real profile sidebar, article widths, HTML sanitization result, and theme CSS without publishing changes.
 
-## Validation and future edits
+Desktop, tablet, and phone layouts were inspected; improvements included larger mobile technology labels, shorter mobile copy, more space between panels, adjusted typography, and a breakpoint matched to the profile layout. The browser's sticky navigation behavior was suppressed for final artifact-only screenshots so it would not cover the top of the hero. Preview tooling and screenshots live outside the repository.
 
-Check relative asset paths, meaningful image alt text, external project links, SVG XML, and the workflow with `actionlint`. Review at desktop and phone widths, in light and dark themes, and with reduced motion enabled. Check actual GitHub rendering again after publishing: a local preview cannot fully reproduce GitHub image caching or the surrounding profile UI.
+This is a local simulation in the real GitHub page, not verification of a deployed redesign. After pushing, manually confirm GitHub's image caching, source selection, animation behavior in your preferred browser, and the links on the published profile. In particular, browser support for reduced-motion propagation into SVG images should be checked on your target devices.
 
-The README's only remotely generated image is the contribution snake hosted on GitHub. Devicon is a source dependency, not a runtime service. LinkedIn, HackerRank, and email are retained from the existing profile; automated access restrictions or a `mailto:` link cannot establish account or mailbox ownership.
 
-### Redesign validation results
+### Validation results
 
-- GitHub's Markdown API rendered the README successfully and retained the picture sources, local images, details sections, and technology table.
-- Chromium previews using that rendered HTML and GitHub-style Markdown CSS passed at 320, 390, and 1280 px in both light and dark mode: no page overflow or broken images. Desktop and mobile screenshots were visually reviewed. Preview files and tooling were kept outside the repository.
-- All local SVGs parsed as XML; local image references and fenced blocks passed validation. The custom assets' text stayed inside each viewBox. The four custom SVGs respected reduced-motion media settings when checked directly; the terminal reveal and cursor were also sampled during normal animation.
-- All GitHub project/activity links, both generated snake assets, and HackerRank returned HTTP 200. LinkedIn returned HTTP 999 (automated-access restriction); the original profile URL was preserved. Email was not sent or tested.
-- `actionlint` 1.7.12 and `git diff --check` passed. The updated workflow has not been executed remotely; the pre-existing workflow's successful runs were inspected.
-- Changes are limited to the profile README, its existing snake workflow, local artwork/icons/license, and these maintenance notes. No commit, push, account-setting change, or workflow dispatch was performed.
+- GitHub Markdown API render: passed; all four image-card anchors and responsive picture sources retained.
+- Actual profile-layout previews: 1280 and 390 px in light/dark themes, plus 320, 768, 1000, and 1024 px in dark mode. Measured article widths ranged from 238 to 846 px. No article overflow or broken images; screenshots were visually reviewed and refined.
+- All 16 generated SVGs: no overlapping text boxes or out-of-bounds text. XML, unique IDs, image alt text, local references, and the absence of scripts or external embedded assets passed checks.
+- Normal animation sampling confirmed the command reveal and cursor changes. Reduced-motion checks hid decorative animation and removed typing clipping. Static variants with the SMIL animation elements removed retained their text and complete diagrams.
+- Regeneration produced byte-identical SVGs. All local SVGs together total approximately 206 KB, including source icons and both layout variants.
+- Project links, GitHub activity links, both snake images, and HackerRank returned HTTP 200. LinkedIn returned HTTP 999 (automated-access restriction); its verified original URL is preserved. No email was sent.
+- `actionlint` 1.7.12 and `git diff --check` passed. The workflow and existing icon sources are unchanged. No workflow dispatch, account-setting change, commit, or push was performed.
