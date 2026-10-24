@@ -1,41 +1,61 @@
 # Profile maintenance
 
-Edit `README.md` directly. The profile uses native GitHub Markdown, small local technology icons, and one optional contribution-snake animation. There are no banners, custom layout assets, SVG generators, typing services, or statistics widgets.
+The profile combines GitHub-native Markdown with four small, self-hosted SVGs. It uses no JavaScript, custom README CSS, external fonts, statistics widgets, or runtime icon CDN.
 
-## Content sources
+## Design assets
 
-The four featured repositories were reviewed again for this redesign:
+- `assets/hero.svg` and `assets/hero-mobile.svg` form the responsive Linux terminal header.
+- `assets/devops-pipeline.svg` and `assets/devops-pipeline-mobile.svg` show the Code → Build → Test → CI/CD → Deploy → Monitor learning path.
+- The mobile assets are selected at browser widths of 900 px or below. This accounts for GitHub's profile sidebar, which can leave a narrow README column before the site itself switches to its phone layout.
+- All custom visuals use a charcoal panel with green, cyan, and blue accents so they remain readable in GitHub light and dark themes.
+- The SVGs include titles, descriptions, view boxes, and meaningful README alternative text.
 
-- [Multi-tier Linux deployment lab](https://github.com/kavinduumayanga/devops-multi-tier-deployment): seven Vagrant-managed Linux VMs; manual service configuration; Nginx, Tomcat, MySQL, Memcached, NFS, and RabbitMQ; dashboard and failover testing. Bash provisioning is explicitly experimental.
-- [RideLink backend](https://github.com/kavinduumayanga/ridelink-backend): a team university project; Kavindu owns Ride Management. Spring Boot, Maven, and GitHub Actions CI are documented. This is CI, not an automated deployment pipeline.
-- [CertLoop](https://github.com/kavinduumayanga/certloop): Python/FastAPI certificate generation with operator-confirmed email delivery and tracking.
-- [Azure Static Web Apps demo](https://github.com/kavinduumayanga/azure-staticweb-demo): a Microsoft Learn Student Ambassadors session demo with an Azure deployment workflow.
+The header's command reveal runs once and its cursor blinks four times. The pipeline highlight runs twice. The underlying text, cards, connectors, and fallback image remain complete when SMIL animation is unsupported. Embedded reduced-motion media rules remove the typing clip and hide decorative motion when the browser propagates that preference into image documents.
 
-Name, SLIIT education, community roles, LinkedIn, email, and HackerRank were retained from the existing profile. The profile's original email is used; a different email in the Azure demo README was not substituted. Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana are described only as upcoming learning goals.
+## Technology icons
 
-## Icons and cleanup
+The 13 icons under `assets/icons/` come from [Devicon](https://github.com/devicons/devicon) revision `6a37858047b0e8d9c9c0e68f4a071fc410652e89`. Their MIT license is retained at `assets/icons/LICENSE`. The files are local and require no third-party image request at profile-render time.
 
-All 13 icons in `assets/icons/` are used by the README. They are from [Devicon](https://github.com/devicons/devicon), revision `6a37858047b0e8d9c9c0e68f4a071fc410652e89`, with their MIT license in `assets/icons/LICENSE`. The existing light icon tiles maintain contrast in both GitHub themes. They require no runtime icon service.
+## Evidence behind the content
 
-Removed the 16 obsolete desktop/mobile SVGs for the terminal, About, toolkit, workflow, and project cards, plus `scripts/build_profile_assets.py`. The now-empty `assets/projects/` and `scripts/` directories were removed. No unrelated content was removed.
+Reviewed on 2026-10-24:
+
+- [Multi-tier Linux deployment lab](https://github.com/kavinduumayanga/devops-multi-tier-deployment): seven Vagrant-managed Linux VMs; manual service configuration; Nginx, Tomcat, MySQL, Memcached, NFS, and RabbitMQ; Java dashboard and failover testing. The project's Bash provisioning is explicitly experimental.
+- [RideLink backend](https://github.com/kavinduumayanga/ridelink-backend): a four-service university project. Kavindu owns Ride Management. The repository documents Java 21, Spring Boot, MongoDB, Maven, JWT security, REST integration, and GitHub Actions CI.
+- [CertLoop](https://github.com/kavinduumayanga/certloop): Python/FastAPI certificate generation with operator-confirmed email delivery and delivery tracking.
+- [Azure Static Web Apps demo](https://github.com/kavinduumayanga/azure-staticweb-demo): an MLSA session demo with a GitHub Actions deployment workflow for Azure Static Web Apps.
+
+Name, SLIIT education, community roles, LinkedIn, HackerRank, and email were retained from the existing profile. Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana are labeled as roadmap technologies. RHEL was omitted because the inspected repositories do not establish its use.
 
 ## Contribution animation
 
-The existing `.github/workflows/snake.yml` is unchanged. It retains its pinned actions, 12-hour schedule, push-to-main trigger, manual dispatch, timeout, concurrency control, and job-scoped publishing permission. No new token, secret, workflow, or account setting is required.
+The existing `.github/workflows/snake.yml` remains unchanged. It retains its pinned actions, 12-hour schedule, push-to-main trigger, manual dispatch, timeout, concurrency control, and job-scoped `contents: write` permission for publishing to the `output` branch. The repository default stays `contents: read`.
 
-The snake is collapsed by default and uses separate light/dark images from the existing `output` branch. The adjacent contribution-history link remains usable without the animation. Upstream snake SVGs do not provide our own reduced-motion handling. No typing animation was added, keeping the existing snake as the only animated element and avoiding another external service.
+The README selects separate light and dark snake assets and keeps the animation collapsed by default. The snake generator does not provide this profile's reduced-motion handling, so the native contribution-history link is also available.
+
+No new secret, token, GitHub Pages site, workflow, or account setting is required. After publishing, a push to `main` triggers the existing workflow. It can also be refreshed through **Actions → Generate Snake Animation → Run workflow**.
 
 ## Verification
 
-Render through GitHub's Markdown API, verify the image paths and links, and inspect the result inside the actual GitHub profile layout at desktop and phone widths in both themes. Local browser previews can substitute working-tree icons without publishing changes; this does not verify GitHub's asset cache after a push.
+Render the README through GitHub's Markdown API, then inspect it inside the public profile layout at realistic browser widths. Local previews can replace working-tree image URLs before the changes are published. This reproduces GitHub's HTML sanitization and profile layout, but it does not verify post-push asset caching.
 
-Run `actionlint .github/workflows/snake.yml` and `git diff --check` before committing. After publishing, confirm icon delivery and the expandable snake on the live profile. LinkedIn may block automated requests even when its URL is valid; email ownership cannot be verified by following a `mailto:` link.
+Before committing:
 
-### Results for this redesign
+1. Parse every local SVG as XML and check local image references and alternative text.
+2. Preview desktop and mobile layouts in light and dark themes.
+3. Confirm the narrow profile terminal does not require horizontal scrolling.
+4. Verify both pipeline layouts, reduced-motion behavior, and static animation fallbacks.
+5. Check project, social, activity, and snake URLs.
+6. Run `actionlint .github/workflows/snake.yml` and `git diff --check`.
 
-- The final README is 80 lines. All 13 local icons are referenced and valid SVG XML; no obsolete artwork references remain.
-- GitHub's Markdown API rendered the page successfully. Its output was previewed in the actual public profile layout with local icon substitution: 1280 and 390 px in both light and dark modes, plus 320 and 768 px in dark mode. No article overflow, broken images, or tables were found. All four project links were retained.
-- The compact technology groups were refined after visual review. The expanded snake loaded without overflow; its light and dark source URLs both returned HTTP 200.
-- Project, GitHub activity, and HackerRank links returned HTTP 200. LinkedIn returned HTTP 999, an automated-access restriction; its original URL was preserved.
-- `actionlint` and `git diff --check` passed. The existing snake workflow and icon sources are byte-for-byte unchanged; the latest existing snake run was successful.
-- Modified `README.md` and these notes; removed only the 16 obsolete profile SVGs and their generator. No commit, push, new workflow, secret, or account-setting change was made.
+LinkedIn may reject automated requests even when the profile URL works normally. A `mailto:` link cannot verify mailbox ownership.
+
+## Results for this redesign
+
+- GitHub's Markdown API rendered the README successfully and retained both responsive image sources, all four project links, the terminal block, and the contribution details section.
+- The rendered README was placed inside the actual public GitHub profile layout for visual review. Desktop and mobile previews passed at browser widths of 1280, 1024, 768, 390, and 320 px across light and dark themes. The measured README column ranged from 846 to 238 px with no page overflow or broken images.
+- The narrow terminal copy was shortened after the first mobile review so every line remains readable without horizontal scrolling. The mobile pipeline connector was also corrected to preserve the six-stage sequence.
+- All four custom SVGs parse as XML, keep their text within their view boxes, use unique IDs, and contain no scripts, `foreignObject`, or external embedded images. Normal animation sampling, reduced-motion rules, and animation-free fallback checks passed.
+- All GitHub project, activity, workflow, and snake URLs plus HackerRank returned HTTP 200. LinkedIn returned HTTP 999 to the automated request; the established profile URL was retained.
+- `actionlint` and `git diff --check` passed. The workflow and licensed Devicon sources are unchanged. The latest three inspected snake workflow runs succeeded.
+- Modified `README.md` and this maintenance guide; created four responsive SVG assets. No unrelated files, secrets, account settings, commits, pushes, or remote workflow runs were changed.

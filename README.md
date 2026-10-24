@@ -1,80 +1,131 @@
-# Kavindu Umayanga
+<picture>
+  <source media="(max-width: 900px)" srcset="assets/hero-mobile.svg">
+  <img src="assets/hero.svg" width="100%" alt="Kavindu Umayanga — aspiring DevOps engineer focused on Linux, cloud, CI/CD, and automation.">
+</picture>
 
-**Aspiring DevOps Engineer | Linux & Cloud Enthusiast**
+<p align="center">
+  <strong>Aspiring DevOps Engineer · Software Engineering Enthusiast · Linux &amp; Cloud Enthusiast</strong><br>
+  Building confidence across the path from application code to reliable operations.
+</p>
 
-I'm working toward DevOps through Linux infrastructure labs and backend projects.
+<p align="center">
+  <a href="https://github.com/kavinduumayanga">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/kavindu-umayanga-93239b319">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:kavinduumayanga@gmail.com">Email</a>
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/kavindu-umayanga-93239b319) · [Contact](#connect)
+## `$ whoami`
 
-## About me
+```text
+kavindu@github:~$ ./profile.sh
 
-I'm a Software Engineering undergraduate at SLIIT, building on my Java and backend experience to learn how applications are deployed, connected, and maintained. My recent work spans Linux service administration, a multi-VM infrastructure lab, GitHub Actions CI, and Azure deployment demos.
+  USER   Kavindu Umayanga
+  STUDY  Software Engineering
+         Undergraduate @ SLIIT
+  ROLE   Aspiring DevOps Engineer
+  BASE   Java / backend development
+  FOCUS  Linux / cloud / CI/CD
 
-I also share what I learn as a Microsoft Learn Student Ambassador and Postman Student Expert.
+  [ OK ] profile loaded
+```
 
-## Technology stack
+I'm exploring what happens beyond application code: how Linux services run, how systems communicate, and how deployments become repeatable. My practical work includes a seven-VM infrastructure lab, Java and Spring Boot backends, GitHub Actions CI, Azure deployment demos, and Python automation.
 
-Tools I've used in coursework, demos, and local labs.
+I also share what I learn as a **Microsoft Learn Student Ambassador** and **Postman Student Expert**.
 
-<p><strong>Linux &amp; Infrastructure</strong><br>
-<img src="assets/icons/linux.svg" width="24" height="24" alt="Linux"> &nbsp; <img src="assets/icons/ubuntu.svg" width="24" height="24" alt="Ubuntu"> &nbsp; <img src="assets/icons/centos.svg" width="24" height="24" alt="CentOS Stream"> &nbsp; <img src="assets/icons/nginx.svg" width="24" height="24" alt="Nginx"><br>
-Linux · Ubuntu · CentOS Stream · Nginx</p>
+## `$ cat ~/toolbox.yml`
 
-<p><strong>Cloud &amp; DevOps</strong><br>
-<img src="assets/icons/azure.svg" width="24" height="24" alt="Azure Static Web Apps"> &nbsp; <img src="assets/icons/vagrant.svg" width="24" height="24" alt="Vagrant"><br>
-Azure Static Web Apps · Vagrant</p>
+The first four groups reflect tools used in projects, coursework, or local labs.
 
-<p><strong>CI/CD &amp; Automation</strong><br>
-<img src="assets/icons/git.svg" width="24" height="24" alt="Git"> &nbsp; <img src="assets/icons/githubactions.svg" width="24" height="24" alt="GitHub Actions"> &nbsp; <img src="assets/icons/bash.svg" width="24" height="24" alt="Bash"><br>
-Git · GitHub Actions · Bash</p>
+<p><strong>Linux &amp; systems</strong><br>
+<img src="assets/icons/linux.svg" width="32" height="32" alt="Linux"> &nbsp;
+<img src="assets/icons/ubuntu.svg" width="32" height="32" alt="Ubuntu"> &nbsp;
+<img src="assets/icons/centos.svg" width="32" height="32" alt="CentOS Stream"> &nbsp;
+<img src="assets/icons/nginx.svg" width="32" height="32" alt="Nginx"><br>
+<sub>Linux · Ubuntu · CentOS Stream · Nginx · Tomcat</sub></p>
 
-<p><strong>Backend Engineering</strong><br>
-<img src="assets/icons/java.svg" width="24" height="24" alt="Java"> &nbsp; <img src="assets/icons/spring.svg" width="24" height="24" alt="Spring Boot"> &nbsp; <img src="assets/icons/maven.svg" width="24" height="24" alt="Maven"> &nbsp; <img src="assets/icons/python.svg" width="24" height="24" alt="Python"><br>
-Java · Spring Boot · Maven · Python</p>
+<p><strong>Cloud &amp; infrastructure</strong><br>
+<img src="assets/icons/azure.svg" width="32" height="32" alt="Microsoft Azure"> &nbsp;
+<img src="assets/icons/vagrant.svg" width="32" height="32" alt="Vagrant"><br>
+<sub>Microsoft Azure · Azure Static Web Apps · Vagrant</sub></p>
 
-## Featured engineering projects
+<p><strong>CI/CD &amp; automation</strong><br>
+<img src="assets/icons/git.svg" width="32" height="32" alt="Git"> &nbsp;
+<img src="assets/icons/githubactions.svg" width="32" height="32" alt="GitHub Actions"> &nbsp;
+<img src="assets/icons/bash.svg" width="32" height="32" alt="Bash"><br>
+<sub>Git · GitHub · GitHub Actions · Bash</sub></p>
 
-### [Multi-tier Linux deployment lab](https://github.com/kavinduumayanga/devops-multi-tier-deployment)
+<p><strong>Backend engineering</strong><br>
+<img src="assets/icons/java.svg" width="32" height="32" alt="Java"> &nbsp;
+<img src="assets/icons/spring.svg" width="32" height="32" alt="Spring Boot"> &nbsp;
+<img src="assets/icons/maven.svg" width="32" height="32" alt="Maven"> &nbsp;
+<img src="assets/icons/python.svg" width="32" height="32" alt="Python"><br>
+<sub>Java · Spring Boot · Maven · Python</sub></p>
 
-> My first infrastructure lab: seven manually configured Linux VMs managed with Vagrant.
+> **Learning next:** Docker · Kubernetes · Terraform · Ansible · Prometheus · Grafana<br>
+> These are roadmap technologies, not claims of completed project experience.
 
-Nginx balances traffic across two Tomcat servers backed by shared MySQL, Memcached, and NFS services. Includes a Java infrastructure dashboard, RabbitMQ monitoring, and documented failover tests.
+## `$ ls ~/projects`
 
-### [RideLink backend](https://github.com/kavinduumayanga/ridelink-backend)
+### [Multi-tier Linux deployment lab ↗](https://github.com/kavinduumayanga/devops-multi-tier-deployment)
 
-A team university project with four Spring Boot services and GitHub Actions CI. I own **Ride Management**: the ride lifecycle, driver assignment, and integration with the Driver and Fare services.
+> **Primary DevOps project** · Seven Linux VMs · Manually configured services
 
-### [CertLoop](https://github.com/kavinduumayanga/certloop)
+Nginx balances traffic across two Tomcat servers backed by shared MySQL, Memcached, and NFS services. The project also includes RabbitMQ monitoring, a Java infrastructure dashboard, and documented failover testing.
 
-A local-first Python/FastAPI application that turns CSV participant lists into personalized PDF certificates, with operator-confirmed email delivery and delivery tracking.
+`Linux` `Vagrant` `Nginx` `Tomcat` `Java` `Maven`
 
-### [Azure Static Web Apps demo](https://github.com/kavinduumayanga/azure-staticweb-demo)
+### [RideLink backend ↗](https://github.com/kavinduumayanga/ridelink-backend)
 
-A static portfolio deployment demo created for a Microsoft Learn Student Ambassadors session, with an Azure Static Web Apps workflow in GitHub Actions.
+A four-service Spring Boot university project with JWT security and GitHub Actions CI. My responsibility is **Ride Management**: ride lifecycle, driver assignment, and Driver/Fare service integration.
 
-## GitHub activity
+`Java` `Spring Boot` `MongoDB` `REST APIs` `GitHub Actions`
 
-[Contribution history](https://github.com/kavinduumayanga?tab=overview) · [All repositories](https://github.com/kavinduumayanga?tab=repositories)
+### [CertLoop ↗](https://github.com/kavinduumayanga/certloop)
+
+A local-first application that turns CSV participant data into personalized PDF certificates, with operator-confirmed email delivery and delivery tracking.
+
+`Python` `FastAPI` `SQLite` `Automation`
+
+### [Azure Static Web Apps demo ↗](https://github.com/kavinduumayanga/azure-staticweb-demo)
+
+A responsive portfolio deployment demo created for a Microsoft Learn Student Ambassadors session, with deployment through Azure Static Web Apps and GitHub Actions.
+
+`Azure` `GitHub Actions` `HTML` `CSS` `JavaScript`
+
+## `$ ./pipeline`
+
+<picture>
+  <source media="(max-width: 900px)" srcset="assets/devops-pipeline-mobile.svg">
+  <img src="assets/devops-pipeline.svg" width="100%" alt="DevOps delivery loop: Code, Build, Test, CI/CD, Deploy, and Monitor. Monitoring feeds the next change.">
+</picture>
+
+This is the lifecycle I'm learning to connect—from a local change to a system I can observe and improve.
+
+## `$ git log`
+
+[Contribution history](https://github.com/kavinduumayanga?tab=overview) · [Browse repositories](https://github.com/kavinduumayanga?tab=repositories)
 
 <details>
-<summary>Contribution snake</summary>
+<summary><strong>Open contribution trail</strong> — generated from my GitHub contribution calendar</summary>
+
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake.svg" width="680" alt="Animated snake tracing Kavindu's GitHub contribution calendar.">
+  <img src="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake tracing Kavindu Umayanga's GitHub contribution calendar.">
 </picture>
 
-A calendar snapshot, refreshed every 12 hours by the existing [workflow](https://github.com/kavinduumayanga/kavinduumayanga/actions/workflows/snake.yml).
+Refreshed every 12 hours by the existing [GitHub Actions workflow](https://github.com/kavinduumayanga/kavinduumayanga/actions/workflows/snake.yml).
 
 </details>
 
-## Currently exploring
+---
 
-- **Hands-on:** deeper Linux administration, Bash provisioning, and repeatable cloud deployments. The Linux lab's Bash automation is still experimental.
-- **Next labs:** Docker and Kubernetes, followed by Terraform and Ansible; Prometheus and Grafana for observability. These are learning goals.
-
-## Connect
-
-Open to conversations about Linux, backend engineering, and DevOps.
-
-[Email](mailto:kavinduumayanga@gmail.com) · [HackerRank](https://www.hackerrank.com/kavinduumayanga)
+<p align="center">
+  <strong>Open to conversations about Linux, backend engineering, and the DevOps learning journey.</strong><br><br>
+  <a href="https://www.linkedin.com/in/kavindu-umayanga-93239b319">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://github.com/kavinduumayanga">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://www.hackerrank.com/kavinduumayanga">HackerRank</a> &nbsp;·&nbsp;
+  <a href="mailto:kavinduumayanga@gmail.com">Email</a>
+</p>
