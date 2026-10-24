@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="380" viewBox="0 0 480 380" role="img" aria-labelledby="title desc">
+<title id="title">Kavindu Umayanga — Aspiring DevOps Engineer</title>
+<desc id="desc">A Linux-inspired terminal introduction. Linux, cloud, and automation. Learn the system. Automate the repeatable.</desc>
+<defs>
+  <linearGradient id="edge" x2="1" y2="0"><stop stop-color="#3fbf95"/><stop offset=".55" stop-color="#58c8e8"/><stop offset="1" stop-color="#6488f4"/></linearGradient>
+<clipPath id="typing"><rect x="26" y="220" width="240" height="28"><animate attributeName="width" from="0" to="240" dur="1.4s" fill="freeze"/></rect></clipPath>
+</defs>
+<style>@media (prefers-reduced-motion: reduce) { .motion { display: none; } .typed { clip-path: none; } }</style>
+<rect x="1" y="1" width="478" height="378" rx="18" fill="#0d1117" stroke="#303d4b" stroke-width="2"/>
+<path d="M20 1 H460" stroke="url(#edge)" stroke-width="2"/>
+<path d="M1 51 H479" stroke="#283443"/>
+<g fill="#718294"><circle cx="25" cy="26" r="4"/><circle cx="41" cy="26" r="4"/><circle cx="57" cy="26" r="4"/></g>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+<text x="456" y="31" text-anchor="end" fill="#9aaabd" font-size="12">~/kavindu / profile</text>
+<text x="26" y="94" fill="#66d9b0" font-size="14">kavindu@github:~$ <tspan fill="#dbe7f3">whoami</tspan></text>
+</g>
+<text x="26" y="139" fill="#f0f6fc" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="700" letter-spacing="-1.4">Kavindu Umayanga</text>
+<text x="26" y="177" fill="#79d7f0" font-family="system-ui, -apple-system, sans-serif" font-size="21">Aspiring DevOps Engineer</text>
+<g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">
+<text class="typed" clip-path="url(#typing)" x="26" y="240" fill="#66d9b0">$ <tspan fill="#a9b9cc">cat interests.txt</tspan></text>
+<text x="26" y="269" fill="#e0e9f2">Linux / Cloud / Automation</text>
+<rect class="motion" x="260" y="256" width="8" height="17" fill="#66d9b0">
+  <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="4"/>
+</rect>
+</g>
+<path d="M26 308 H454" stroke="#283443"/>
+<text x="26" y="342" fill="#a9b9cc" font-family="system-ui, -apple-system, sans-serif" font-size="15">Learn the system. Automate the repeatable.</text>
+<rect class="motion" x="26" y="307" width="0" height="2" rx="1" fill="#66d9b0">
+  <animate attributeName="width" from="0" to="428" dur="2.4s" fill="freeze"/>
+</rect>
+</svg>

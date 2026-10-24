@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="624" height="300" viewBox="0 0 624 300" role="img" aria-labelledby="title desc">
+<title id="title">From code to operations</title>
+<desc id="desc">Code, Build, Test, CI/CD, Deploy, Monitor. Follow the top row left to right, then the bottom row right to left. Monitoring informs the next change.</desc>
+<style>@media (prefers-reduced-motion: reduce) { .motion { display: none; } }</style>
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#79a2bc"/></marker></defs>
+<rect x="1" y="1" width="622" height="298" rx="16" fill="#0d1117" stroke="#303d4b"/>
+<text x="24" y="27" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#9aaabd">~/workflow / continuous learning</text>
+<g fill="none" stroke="#79a2bc" stroke-width="1.5" marker-end="url(#arrow)">
+<path d="M196 85 H220"/><path d="M398 85 H422"/><path d="M514 126 V152"/>
+<path d="M428 199 H404"/><path d="M226 199 H202"/>
+</g>
+<g transform="translate(24 44)">
+<rect width="172" height="82" rx="9" fill="#141e2a" stroke="#31465c"/>
+<text x="14" y="23" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#66d9b0">01</text>
+<text x="14" y="47" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f0f6fc">Code</text>
+<text x="14" y="68" font-family="system-ui, sans-serif" font-size="13" fill="#a9b9cc">version changes</text>
+</g><g transform="translate(226 44)">
+<rect width="172" height="82" rx="9" fill="#141e2a" stroke="#31465c"/>
+<text x="14" y="23" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#66d9b0">02</text>
+<text x="14" y="47" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f0f6fc">Build</text>
+<text x="14" y="68" font-family="system-ui, sans-serif" font-size="13" fill="#a9b9cc">package the app</text>
+</g><g transform="translate(428 44)">
+<rect width="172" height="82" rx="9" fill="#141e2a" stroke="#31465c"/>
+<text x="14" y="23" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#66d9b0">03</text>
+<text x="14" y="47" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f0f6fc">Test</text>
+<text x="14" y="68" font-family="system-ui, sans-serif" font-size="13" fill="#a9b9cc">check behavior</text>
+</g><g transform="translate(428 158)">
+<rect width="172" height="82" rx="9" fill="#141e2a" stroke="#31465c"/>
+<text x="14" y="23" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#66d9b0">04</text>
+<text x="14" y="47" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f0f6fc">CI/CD</text>
+<text x="14" y="68" font-family="system-ui, sans-serif" font-size="13" fill="#a9b9cc">automate delivery</text>
+</g><g transform="translate(226 158)">
+<rect width="172" height="82" rx="9" fill="#141e2a" stroke="#31465c"/>
+<text x="14" y="23" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#66d9b0">05</text>
+<text x="14" y="47" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f0f6fc">Deploy</text>
+<text x="14" y="68" font-family="system-ui, sans-serif" font-size="13" fill="#a9b9cc">run the release</text>
+</g><g transform="translate(24 158)">
+<rect width="172" height="82" rx="9" fill="#141e2a" stroke="#31465c"/>
+<text x="14" y="23" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#66d9b0">06</text>
+<text x="14" y="47" font-family="system-ui, sans-serif" font-size="22" font-weight="600" fill="#f0f6fc">Monitor</text>
+<text x="14" y="68" font-family="system-ui, sans-serif" font-size="13" fill="#a9b9cc">observe &amp; learn</text>
+</g><circle class="motion" r="3" fill="#66d9b0" opacity="0">
+<animate attributeName="opacity" values="1;1;0" keyTimes="0;0.95;1" dur="6s" repeatCount="2"/>
+<animateMotion path="M196 85 L220 85 M398 85 L422 85 M514 126 L514 152 M428 199 L404 199 M226 199 L202 199" dur="6s" repeatCount="2"/>
+</circle>
+<text x="312" y="274" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#79d7f0">feedback → the next change</text>
+</svg>

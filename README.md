@@ -1,135 +1,125 @@
-<div align="center">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/terminal-mobile.svg">
+  <img src="assets/terminal.svg" width="100%" alt="Kavindu Umayanga — Aspiring DevOps Engineer. Linux, cloud, and automation. Learn the system. Automate the repeatable.">
+</picture>
 
-<!-- Animated Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=17,18,19&height=180&section=header&text=Kavindu%20Umayanga&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full-Stack%20Developer%20%7C%20Microsoft%20Student%20Ambassador&descAlignY=55&descSize=16" width="100%"/>
+<p align="center">
+  <strong>Aspiring DevOps Engineer · Software Engineering Enthusiast · Linux &amp; Cloud Enthusiast</strong><br>
+  Building on a software engineering foundation, one infrastructure lab at a time.
+</p>
 
-<!-- Animated Typing SVG -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6EE7F7&center=true&vCenter=true&width=600&lines=Hey+there!+%F0%9F%91%8B+I'm+Kavindu;Full-Stack+Developer+%F0%9F%9A%80;Microsoft+Student+Ambassador+%F0%9F%92%99;Postman+Student+Expert+%F0%9F%9F%A0;SE+Undergraduate+%40+SLIIT+%F0%9F%8E%93;Turning+Ideas+into+Code+%E2%9C%A8" alt="Typing SVG" /></a>
+<p align="center">
+  <a href="https://github.com/kavinduumayanga">GitHub</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/kavindu-umayanga-93239b319">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:kavinduumayanga@gmail.com">Email</a>
+</p>
 
-<br/>
+## `01` / About the engineer
 
-<!-- Profile View Counter -->
-<img src="https://komarev.com/ghpvc/?username=kavinduumayanga&style=for-the-badge&color=0891b2&labelColor=1c1917" alt="Profile Views"/>
-&nbsp;
-<img src="https://img.shields.io/github/followers/kavinduumayanga?style=for-the-badge&logo=github&logoColor=white&color=0891b2&labelColor=1c1917" alt="Followers"/>
-&nbsp;
-<img src="https://img.shields.io/github/stars/kavinduumayanga?style=for-the-badge&logo=github&logoColor=white&color=0891b2&labelColor=1c1917" alt="Stars"/>
+```text
+kavindu@github:~$ ./profile.sh
 
-</div>
+  USER   Kavindu Umayanga
+  STUDY  Software Engineering
+         Undergraduate @ SLIIT
+  ROLE   Aspiring DevOps Engineer
+  BASE   Java & backend development
+  FOCUS  Linux / cloud / automation
 
----
-
-## 🙋‍♂️ About Me
-
-```typescript
-const kavindu = {
-  name:       "Kavindu Umayanga",
-  role:       "Full-Stack Developer",
-  education:  "SE Undergraduate @ SLIIT 🎓",
-  badges:     ["Microsoft Student Ambassador 💙", "Postman Student Expert 🟠"],
-  passion:    "Turning ideas into code, and code into innovation 💡",
-  funFact:    "I debug code with coffee ☕ and music 🎵",
-};
+  Learn. Build. Debug. Repeat.
 ```
 
-<img align="right" alt="Coding" width="380" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
+I'm a software engineering undergraduate exploring what happens beyond the application code: how Linux services run, how systems communicate, and how deployments become repeatable.
 
+My hands-on work includes a **seven-VM Linux deployment lab**, **Java and Spring Boot backend development**, and **Azure deployment demos**. I'm building confidence with system administration, networking, CI/CD, and infrastructure automation through practical projects.
 
-- 🔭 Currently working on exciting **Full-Stack** projects
-- 🌱 Exploring **Cloud Technologies** & **AI/ML** integrations
-- 💙 **Microsoft Learn Student Ambassador** — empowering communities
-- 🟠 **Postman Student Expert** — API advocate
-- 🎓 **Software Engineering** undergraduate at **SLIIT**
-- ⚡ Fun fact: I love building things that make life easier!
+I also share what I learn as a **Microsoft Learn Student Ambassador** and **Postman Student Expert**.
 
-<br clear="right"/>
+## `02` / Engineering toolkit
 
----
+**Used in projects** — experience from coursework, demos, and local labs.
 
-## 🛠️ Tech Stack & Tools
+| Area | Tools I've worked with |
+| :--- | :--- |
+| **Linux systems** | <img src="assets/icons/linux.svg" width="28" height="28" alt="Linux"> &nbsp; <img src="assets/icons/ubuntu.svg" width="28" height="28" alt="Ubuntu"> &nbsp; <img src="assets/icons/centos.svg" width="28" height="28" alt="CentOS"><br>Linux · Ubuntu · CentOS Stream |
+| **Cloud** | <img src="assets/icons/azure.svg" width="28" height="28" alt="Microsoft Azure"><br>Microsoft Azure · Static Web Apps |
+| **CI & version control** | <img src="assets/icons/git.svg" width="28" height="28" alt="Git"> &nbsp; <img src="assets/icons/githubactions.svg" width="28" height="28" alt="GitHub Actions"><br>Git · GitHub · GitHub Actions |
+| **Infrastructure & scripting** | <img src="assets/icons/vagrant.svg" width="28" height="28" alt="Vagrant"> &nbsp; <img src="assets/icons/bash.svg" width="28" height="28" alt="Bash"><br>Vagrant · Bash |
+| **Web infrastructure** | <img src="assets/icons/nginx.svg" width="28" height="28" alt="Nginx"><br>Nginx · Tomcat · MySQL · Memcached |
+| **Backend development** | <img src="assets/icons/java.svg" width="28" height="28" alt="Java"> &nbsp; <img src="assets/icons/spring.svg" width="28" height="28" alt="Spring Boot"> &nbsp; <img src="assets/icons/maven.svg" width="28" height="28" alt="Maven"> &nbsp; <img src="assets/icons/python.svg" width="28" height="28" alt="Python"><br>Java · Spring Boot · Maven · Python |
 
-<div align="center">
+**Learning focus** — deeper Linux administration, reliable Bash provisioning, and repeatable cloud delivery. My Linux lab is manually configured; its Bash automation is still experimental.
 
-### 💻 Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java&theme=dark" />
+<details>
+<summary><strong>Next labs / learning roadmap</strong></summary>
+
+- **Containers & orchestration:** explore Docker and Kubernetes.
+- **Infrastructure as Code:** explore Terraform and Ansible.
+- **Observability:** explore Prometheus and Grafana.
+
+These are learning goals, not claims of completed project experience.
+
+</details>
+
+## `03` / Selected builds
+
+### [Multi-tier Linux deployment lab ↗](https://github.com/kavinduumayanga/devops-multi-tier-deployment)
+
+My first hands-on DevOps project: seven Linux VMs with Nginx load balancing across two Tomcat servers, shared MySQL, Memcached, and NFS services, plus RabbitMQ monitoring. Includes a Java infrastructure dashboard and documented failover testing.
+
+`Linux` `Vagrant` `Nginx` `Tomcat` `Java` `Maven`
+
+### [RideLink backend ↗](https://github.com/kavinduumayanga/ridelink-backend)
+
+A team university project built around four Spring Boot services. My responsibility is **Ride Management**: ride lifecycle, driver assignment, and integration with Driver and Fare services. The repository includes Maven tests and GitHub Actions CI.
+
+`Java` `Spring Boot` `MongoDB` `REST APIs` `GitHub Actions`
+
+### [CertLoop ↗](https://github.com/kavinduumayanga/certloop)
+
+A local-first Python/FastAPI application for turning CSV participant lists into personalized PDF certificates, with operator-confirmed email delivery and delivery tracking.
+
+`Python` `FastAPI` `SQLite` `Automation`
+
+### [Azure Static Web Apps demo ↗](https://github.com/kavinduumayanga/azure-staticweb-demo)
+
+A static portfolio demo created for a Microsoft Learn Student Ambassadors session, with an Azure Static Web Apps deployment workflow in GitHub Actions.
+
+`Azure` `GitHub Actions` `HTML / CSS / JavaScript`
+
+## `04` / From code to operations
+
+The lifecycle I'm learning to connect, from a local change to a system I can observe.
+
+<p align="center">
+  <picture>
+  <source media="(max-width: 600px)" srcset="assets/devops-workflow-mobile.svg">
+  <img src="assets/devops-workflow.svg" width="600" alt="DevOps lifecycle: Code → Build → Test → CI/CD → Deploy → Monitor. Monitoring informs the next change.">
+  </picture>
 </p>
 
-### 🚀 Frameworks & Libraries
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,bootstrap&theme=dark" />
-</p>
+## `05` / GitHub activity
 
-### 🗄️ Databases & Cloud
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase,azure&theme=dark" />
-</p>
+<details>
+<summary><strong>Play the contribution trail</strong> — generated from my GitHub contribution calendar</summary>
 
-### 🔧 Tools & Platforms
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,postman,docker&theme=dark" />
-</p>
+<br>
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake moving through Kavindu Umayanga's GitHub contribution calendar.">
+</picture>
 
----
+Generated every 12 hours by [GitHub Actions](https://github.com/kavinduumayanga/kavinduumayanga/actions/workflows/snake.yml); this is a contribution snapshot, not a live activity feed.
 
-## 📊 GitHub Analytics
+</details>
 
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kavinduumayanga&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6EE7F7&icon_color=6EE7F7&text_color=c9d1d9&ring_color=6EE7F7" alt="GitHub Stats"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kavinduumayanga&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6EE7F7&text_color=c9d1d9" alt="Top Languages"/>
-
-</div>
-
-<div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com?user=kavinduumayanga&theme=tokyonight-duo&hide_border=true&background=0d1117&stroke=6EE7F7&ring=6EE7F7&fire=FF6B35&currStreakNum=FFFFFF&currStreakLabel=6EE7F7&sideNums=FFFFFF&sideLabels=6EE7F7&dates=8B949E" alt="GitHub Streak"/>
-</div>
-
-<br/>
-
-<!-- GitHub Activity Graph -->
-<div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=kavinduumayanga&bg_color=0d1117&color=6EE7F7&line=6EE7F7&point=FFFFFF&area=true&hide_border=true&area_color=1a3a4a" alt="Activity Graph"/>
-</div>
-
-<br/>
-
-<!-- GitHub Profile Summary -->
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kavinduumayanga&theme=tokyonight" alt="Profile Details" width="95%"/>
-</div>
+[Contribution history](https://github.com/kavinduumayanga?tab=overview) · [Browse repositories](https://github.com/kavinduumayanga?tab=repositories)
 
 ---
 
-## 🐍 Contribution Snake
+**Let's connect.** I'm interested in Linux labs, backend engineering, and learning how to build reliable systems.
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kavinduumayanga/kavinduumayanga/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
+[LinkedIn](https://www.linkedin.com/in/kavindu-umayanga-93239b319) · [GitHub](https://github.com/kavinduumayanga) · [HackerRank](https://www.hackerrank.com/kavinduumayanga) · [Email](mailto:kavinduumayanga@gmail.com)
 
-> 
-
----
-
-## 🌐 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kavindu-umayanga-93239b319)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kavinduumayanga_/)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/kavindu.umayangana.79/)
-[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/kavinduumayanga)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kavinduumayanga@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-<!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=17,18,19&height=100&section=footer&animation=twinkling" width="100%"/>
-
-</div>
+`kavindu@github:~$` **Learn the system. Automate the repeatable.**
