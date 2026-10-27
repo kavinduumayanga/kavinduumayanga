@@ -138,6 +138,16 @@ My hands-on work includes a **seven-VM Linux infrastructure lab**, **Java and Sp
 
 <br/>
 
+## Open Source & Technical Contributions
+
+**HashiCorp Vagrant VMware Desktop — Bug Report**
+
+Investigated a `Net::ReadTimeout` failure during VMware `vmnet` verification on Apple Silicon macOS using Vagrant debug logs. Submitted a detailed bug report with environment information, reproduction steps, screenshots, debugging logs, and a proposed minimal Vagrantfile for reproduction.
+
+[View GitHub Issue #185](https://github.com/hashicorp/vagrant-vmware-desktop/issues/185)
+
+<br/>
+
 ## The loop I'm learning
 
 <div align="center">
